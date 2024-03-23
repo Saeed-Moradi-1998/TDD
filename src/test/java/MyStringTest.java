@@ -14,5 +14,7 @@ public class MyStringTest {
         assertEquals(-1, MyString.indexOfString("", "world", 0));
         // This test case now passes as the method indexOfString handles it.
         assertEquals(6, MyString.indexOfString("hello world", "world", 0));
+
+        assertEquals(-1, MyString.indexOfString("hello world", "world", 10));
     }
 }
