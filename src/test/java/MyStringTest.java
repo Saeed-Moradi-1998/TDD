@@ -16,5 +16,9 @@ public class MyStringTest {
         assertEquals(6, MyString.indexOfString("hello world", "world", 0));
         // This test case now passes as the initial return value of the method indexOfString has changed from 0 to -1.
         assertEquals(-1, MyString.indexOfString("hello world", "world", 10));
+
+        assertEquals(5, MyString.indexOfString("worldworld", "world", 3));
+
+        assertEquals(-1, MyString.indexOfString("hello World", "world", 0));
     }
 }
