@@ -10,5 +10,7 @@ public class MyStringTest {
     public void testIndexOfString() {
         // This now passes in case s2 is empty.
         assertEquals(-1, MyString.indexOfString("world", "", 0));
+        assertEquals(-1, MyString.indexOfString("", "world", 0));
+
     }
 }
