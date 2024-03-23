@@ -18,7 +18,14 @@ public class MyStringTest {
         assertEquals(-1, MyString.indexOfString("hello world", "world", 10));
 
         assertEquals(5, MyString.indexOfString("worldworld", "world", 3));
-
+        // Further testing other possible cases.
         assertEquals(-1, MyString.indexOfString("hello World", "world", 0));
+    }
+
+    @Test
+    public void testReplace() { // Testing the method replace.
+
+        assertEquals(null,myString.replace(null, "hello", "world"));
+        // This is the test that is expected to fail in the initial execution.
     }
 }

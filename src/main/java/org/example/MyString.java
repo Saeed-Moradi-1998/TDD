@@ -27,4 +27,8 @@ public class MyString {
         }
         return index;
     }
+
+    public static String replace(String s, String s1, String s2) {
+        return ""; // This is the initial implementation of the method which returns empty string.
+    }
 }
