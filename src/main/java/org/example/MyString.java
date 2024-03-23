@@ -4,7 +4,7 @@ public class MyString {
 
     public static int indexOfString(String s1, String s2, int pos) {
         int counter = 0;
-        int index = 0;
+        int index = -1; // If s2 was never found in s1, -1 should be returned.
         boolean flag = false; // To track where we first found the first letter of s2.
         if (s1.isEmpty() || s2.isEmpty()){ // Check if either of the strings are empty.
             return -1;
