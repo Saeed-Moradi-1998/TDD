@@ -30,15 +30,11 @@ public class MyString {
 
     public static String replace(String s, String s1, String s2) {
 
-        if (s == null){ // Checking if s in null.
+        // Check if any of the strings are null
+        if (s == null || s1 == null || s2 == null) {
             return null;
         }
-        if (s1 == null){ // Checking if s1 in null.
-            return null;
-        }
-        if (s2 == null){ // Checking if s2 is null
-            return null;
-        }
+
         return ""; // This is the initial implementation of the method which returns empty string.
     }
 }
