@@ -29,5 +29,7 @@ public class MyStringTest {
         // This test now successfully passes because the case where s is null is handled.
         assertEquals(null,myString.replace("hello world", null, "world"));
         // This test case now successfully passes.
+        assertEquals(null,myString.replace("hello world", "hello", null));
+        // This test case should fail.
     }
 }
