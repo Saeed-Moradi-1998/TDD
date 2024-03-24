@@ -34,7 +34,7 @@ public class MyStringTest {
         assertEquals("world",myString.replace("hello world", "", "world"));
         // This test case now successfully passes.
         assertEquals("Hello Saeed",myString.replace("Hello world", "world", "Saeed"));
-        // This test case should fail in the initial try.
+        // This test case now successfully passes.
 
     }
 }
