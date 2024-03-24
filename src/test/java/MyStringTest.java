@@ -26,6 +26,6 @@ public class MyStringTest {
     public void testReplace() { // Testing the method replace.
 
         assertEquals(null,myString.replace(null, "hello", "world"));
-        // This is the test that is expected to fail in the initial execution.
+        // This test now successfully passes because the case where s is null is handled.
     }
 }
