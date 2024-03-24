@@ -33,6 +33,9 @@ public class MyString {
         if (s == null){ // Checking if s in null.
             return null;
         }
+        if (s1 == null){ // Checking if s1 in null.
+            return null;
+        }
         return ""; // This is the initial implementation of the method which returns empty string.
     }
 }
