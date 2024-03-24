@@ -32,6 +32,6 @@ public class MyStringTest {
         assertEquals(null,myString.replace("hello world", "hello", null));
         // This test case now successfully passes.
         assertEquals("world",myString.replace("hello world", "", "world"));
-        // This test check if s2 is returned if s1 is empty and it has to fail.
+        // This test case now successfully passes.
     }
 }

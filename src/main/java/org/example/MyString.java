@@ -35,6 +35,11 @@ public class MyString {
             return null;
         }
 
+        // Checking if s1 is empty, returning s2 if that's the case.
+        if (s1.isEmpty()) {
+            return s2;
+        }
+
         return ""; // This is the initial implementation of the method which returns empty string.
     }
 }
