@@ -30,6 +30,6 @@ public class MyStringTest {
         assertEquals(null,myString.replace("hello world", null, "world"));
         // This test case now successfully passes.
         assertEquals(null,myString.replace("hello world", "hello", null));
-        // This test case should fail.
+        // This test case now successfully passes.
     }
 }
